@@ -130,5 +130,6 @@ public class RandomNumber
 				{
 					System.out.println("Sweet!");
 				}
+			//HELLO DARKNESS MY OLD FRIEND
 		}
 	}
