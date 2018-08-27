@@ -13,13 +13,14 @@ public class RandomNumber
 		public static void main(String[]args)
 		{
 			greetingUser();
-			while (isPlaying)
+			do
 				{
 					askForDifficulty();
 					generateRandomNUmber();
 					guessTheNumber();
 					askToPlayAgain();
 				}
+			while (isPlaying);
 		}
 		
 		public static void greetingUser()
